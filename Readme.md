@@ -5,7 +5,7 @@ Here I refer an example of doubt solving session between Teacher & Student where
 To add some sort of authentication adminheader is passed with secret which is verified with env file secret
 #### /meeting/student-join (Join a meeting by Student with meetingId and his own ID)
 Join a meeting which he is enrolled during meeting Creation
-#### /meeting/patient-join (Join a meeting by Teacher with meetingId and his own ID)
+#### /meeting/teacher-join (Join a meeting by Teacher with meetingId and his own ID)
 Join a meeting which he is enrolled during meeting Creation
 
 ### Steps to Setup

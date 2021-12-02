@@ -9,7 +9,7 @@ const createMeetingSession = catchAsync(async (req, res) => {
   if(!MeetingCreation){
     throw new ApiError(httpStatus.BAD_REQUEST,"Something went wrong with Dyte Services");
   }
-  res.status(httpStatus.CREATED).json(MeetingCreation);
+  res.status(httpStatus.CREATED).json({meetingId:MeetingCreation});
 });
 
 const studentJoining = catchAsync(async (req, res) => {
